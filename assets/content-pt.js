@@ -86,39 +86,39 @@ COURSE.notes = [
 COURSE.modules = [
   { id:'m1', n:1, e:'🎨', color:'#EC4899', title:'O conteúdo do curso',
     desc:'A história, as 4 primeiras aulas e projetos reais publicados por alunos.',
-    obj:'Prepare-se para dar as primeiras aulas do Digital Creativity 2, em que os alunos criam uma apresentação em vídeo de 3 cenas e publicam a primeira peça do portfólio.',
+    obj:'Prepare-se para dar as primeiras aulas do Digital Creativity 2. Nelas, os alunos vão criar uma apresentação em vídeo de 3 cenas e publicar o primeiro projeto do portfólio.',
     offer:[['🎭','Conhecer a história do Estúdio Creativia e como o curso é organizado.'],['📖','Saber o que acontece em cada uma das 4 primeiras aulas.'],['⚡','Ver projetos reais publicados por alunos no Kodland Sparks.'],['📘','Revisar as aulas e as Teacher Notes no Backoffice.']],
     sections:[
       { id:'ov', e:'🎭', title:'O curso', blocks:[
         { t:'meta', items:[['👦','Idade','10–12 anos'],['⏱️','Aula','60 min'],['📚','Programa','40 aulas'],['🖌️','Ferramentas','FlipAnim · Canva']] },
-        { t:'p', html:'Os alunos viram jovens criadores no <b>Estúdio Creativia</b>, uma agência criativa digital em que cada módulo é um novo briefing de cliente: vídeo pessoal, marca, quadrinho, animação, mundo 3D, loja online. No fim do curso eles têm um portfólio profissional no Kodland Sparks.' },
+        { t:'p', html:'Os alunos se tornam jovens criadores no <b>Estúdio Creativia</b>, uma agência criativa digital onde cada módulo é um novo briefing de cliente: vídeo pessoal, marca, quadrinho, animação, mundo 3D, loja online. No fim do curso, eles vão ter um portfólio profissional no Kodland Sparks.' },
         { t:'ba', before:['A versão anterior','Indutivo: primeiro a ferramenta e a teoria, depois um projeto do zero. Habilidades com IA não eram ensinadas.'], after:['Digital Creativity 2','Dedutivo: protótipo ou animação pronta → exploração → criação própria. <b>O AI Buddy e a IA do Canva fazem parte da experiência.</b>'] },
-        { t:'callout', kind:'good', e:'🧰', html:'<b>Teste de alavanca</b> para esta idade: sem IA o projeto continuaria possível, mas visivelmente mais pobre ou menor no tempo da aula. A IA gera material — o aluno escolhe, edita e monta.' }
+        { t:'callout', kind:'good', e:'🧰', html:'<b>Teste de alavanca</b> para esta idade: sem a IA, o projeto continuaria sendo possível, mas renderia visivelmente menos durante a aula. A IA gera o material — o aluno escolhe, edita e monta.' }
       ]},
       { id:'les', e:'📖', title:'As 4 primeiras aulas', blocks:[
         { t:'p', html:'O Módulo 1 constrói, cena por cena, uma apresentação em vídeo do aluno. Abra cada aula:' },
         { t:'lessons', key:'m1', items:[
-          { tab:'M1A1', e:'✏️', h:'Aula 1 — Animando o seu nome no FlipAnim', p:'Primeira aula do curso. Os alunos conhecem o grupo e criam o primeiro projeto digital: uma animação GIF quadro a quadro com o próprio nome.',
-            acc:[['📚','O que você precisa saber','<ul><li>O princípio da animação quadro a quadro (uma letra nova = um quadro novo).</li><li>O básico do FlipAnim: lápis, balde, borracha, duplicar quadro.</li><li>O <b>BrushNinja</b> como alternativa se o FlipAnim falhar.</li></ul>'],
+          { tab:'M1A1', e:'✏️', h:'Aula 1 — Animando o seu nome no FlipAnim', p:'Primeira aula do curso. Os alunos conhecem o grupo e vão criar o primeiro projeto digital: uma animação GIF quadro a quadro com o próprio nome.',
+            acc:[['📚','O que você precisa saber','<ul><li>O princípio da animação quadro a quadro (uma letra nova = um quadro novo).</li><li>O básico do FlipAnim: lápis, preenchimento, borracha, duplicar o quadro.</li><li>O <b>BrushNinja</b> como alternativa se o FlipAnim falhar.</li></ul>'],
                  ['🎯','Objetivos de aprendizagem','<ul><li>O aluno entende que o movimento vem de uma sequência de imagens um pouco diferentes.</li><li>Produz uma animação GIF legível e funcionando com o próprio nome.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Mostre o resultado final e o algoritmo principal <b>uma vez</b>.</li><li>Crie um desafio produtivo <i>antes</i> de explicar — deixe tentar primeiro.</li><li>Dê <b>uma dica por vez</b>.</li><li>Priorize que a animação <i>funcione</i> antes de ela ficar bonita.</li></ul>'],
                  ['⚙️','Aspectos técnicos','<ul><li>Se o FlipAnim não carregar, use o BrushNinja.</li><li>O editor funciona sem cadastro — nenhum dado pessoal é pedido.</li><li><b>Lição de casa:</b> preparar um e-mail próprio ou de um adulto para a próxima aula (cadastro no Canva), sem compartilhar a senha com o tutor.</li></ul>']] },
-          { tab:'M1A2', e:'🖼', h:'Aula 2 — Cadastro no Canva. Primeira cena “Meu nome é…”', p:'Os alunos conhecem o Canva, criam o primeiro projeto de vídeo e montam a primeira cena da futura apresentação usando o GIF da Aula 1.',
+          { tab:'M1A2', e:'🖼', h:'Aula 2 — Cadastro no Canva. Primeira cena “Meu nome é…”', p:'Os alunos conhecem o Canva, vão criar o primeiro projeto de vídeo e montar a primeira cena da futura apresentação usando o GIF da Aula 1.',
             acc:[['📚','O que você precisa saber','<ul><li>O processo de cadastro no Canva (e contas de reserva se houver problemas técnicos).</li><li>A estrutura de um projeto de vídeo no Canva: fundo, molduras, uploads, animar, linha do tempo.</li><li>Como importar o GIF da aula anterior.</li></ul>'],
-                 ['📌','Pontos de atenção','<ul><li>O cadastro pode trazer dificuldades — <b>tenha e-mails de reserva prontos</b>.</li><li>Não sobrecarregue os alunos com ferramentas complexas do Canva.</li><li>Confira se só elementos gratuitos são usados.</li><li>Lembre as regras de segurança de dados pessoais durante o cadastro.</li></ul>'],
+                 ['📌','Pontos de atenção','<ul><li>O cadastro pode trazer dificuldades — <b>tenha e-mails de reserva prontos</b>.</li><li>Não sobrecarregue os alunos com ferramentas complexas do Canva.</li><li>Confira se os alunos estão usando apenas elementos gratuitos.</li><li>Relembre as regras de segurança de dados pessoais durante o cadastro.</li></ul>'],
                  ['🎯','Objetivos de aprendizagem','<ul><li>O aluno se cadastra e entra no Canva.</li><li>Cria um projeto de vídeo com a primeira cena.</li><li>Acrescenta o GIF do nome e pelo menos 2 elementos animados.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Mostre o cadastro e a criação do projeto <b>uma vez</b>.</li><li>Dê tempo de exploração livre antes de explicar a interface em detalhe.</li><li>Organize uma demonstração final com feedback positivo e específico.</li></ul>'],
                  ['⚙️','Aspectos técnicos','<ul><li>Projeto de vídeo no formato <b>vertical</b>.</li><li>Compartilhar → Qualquer pessoa com o link → Ver → Copiar link.</li></ul>']] },
-          { tab:'M1A3', e:'🤖', h:'Aula 3 — Cena dos interesses com avatar/foto e elementos de IA', p:'Os alunos criam a segunda cena do vídeo com uma foto autorizada ou um avatar, geram uma versão editada com IA (remoção de fundo) e animam um efeito de “cabeça se abrindo” com figurinhas dos seus interesses.',
-            acc:[['📚','O que você precisa saber','<ul><li>Como enviar uma imagem (Uploads).</li><li>Como usar os apps de IA do Canva para remover um fundo.</li><li>A ordem certa das camadas (a nuvem atrás do personagem, mas na frente do fundo).</li><li>Atalhos para desfazer (Ctrl/Cmd + Z).</li></ul>'],
+          { tab:'M1A3', e:'🤖', h:'Aula 3 — Cena dos interesses com avatar/foto e elementos de IA', p:'Os alunos vão criar a segunda cena do vídeo com uma foto autorizada ou um avatar, gerar uma versão editada com IA (remoção de fundo) e animar um efeito de “cabeça se abrindo” com figurinhas dos seus interesses.',
+            acc:[['📚','O que você precisa saber','<ul><li>Como enviar o arquivo de uma imagem (Uploads).</li><li>Como usar os apps de IA do Canva para remover um fundo.</li><li>A ordem certa das camadas (a nuvem atrás do personagem, mas na frente do fundo).</li><li>Atalhos para desfazer (Ctrl/Cmd + Z).</li></ul>'],
                  ['📌','Pontos de atenção','<ul><li>Tenha um <b>avatar neutro de reserva</b> se o aluno não trouxer o próprio recurso.</li><li>Não faça muitas gerações de IA seguidas — os créditos gratuitos são limitados.</li><li>Confira se a imagem não tem dados pessoais e fica dentro da moldura.</li></ul>'],
-                 ['🎯','Objetivos de aprendizagem','<ul><li>O aluno integra o recurso pessoal editado com IA.</li><li>Mantém o estilo visual da cena 1.</li><li>Acrescenta figurinhas dos próprios interesses, com aparição animada.</li></ul>'],
+                 ['🎯','Objetivos de aprendizagem','<ul><li>O aluno integra o recurso pessoal editado com IA.</li><li>Mantém o estilo visual da cena 1.</li><li>Adiciona figurinhas dos próprios interesses, com animação de entrada.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Mostre o fluxo técnico <b>uma vez</b> e deixe o aluno experimentar.</li><li>Dê feedback com a fórmula: <b>ponto forte específico → pergunta para melhorar → apoio</b>.</li><li><b>Não corrija o projeto pelo aluno.</b></li></ul>'],
-                 ['⚙️','Aspectos técnicos','<ul><li>Ferramentas de corte para dividir o avatar em duas partes (cabeça se abrindo).</li><li>Confira se as duas partes mantêm o mesmo tamanho.</li><li>Reforce a proibição de compartilhar fotos com dados pessoais.</li></ul>']] },
-          { tab:'M1A4', e:'🎵', h:'Aula 4 — Música, exportação e publicação no Kodland Sparks', p:'Última aula do módulo. Entram música e efeitos sonoros no vídeo completo, ele é exportado em MP4 e o projeto final é publicado como peça do portfólio no Kodland Sparks.',
-            acc:[['📚','O que você precisa saber','<ul><li>Como acrescentar e ajustar uma faixa de áudio na linha do tempo do Canva.</li><li>O processo completo de exportação (Arquivo → Baixar → MP4).</li><li>O fluxo de publicação no Kodland Sparks (tipo, visibilidade, copiar o link do cartão publicado).</li></ul>'],
+                 ['⚙️','Aspectos técnicos','<ul><li>Ferramentas de corte para dividir o avatar em duas partes (cabeça se abrindo).</li><li>Confira se as duas partes continuam com o mesmo tamanho.</li><li>Reforce a proibição de compartilhar fotos com dados pessoais.</li></ul>']] },
+          { tab:'M1A4', e:'🎵', h:'Aula 4 — Música, exportação e publicação no Kodland Sparks', p:'Última aula do módulo. Os alunos vão adicionar música e efeitos sonoros no vídeo completo, exportar o arquivo em MP4 e publicar o projeto final como projeto do portfólio no Kodland Sparks.',
+            acc:[['📚','O que você precisa saber','<ul><li>Como acrescentar e ajustar uma faixa de áudio na linha do tempo do Canva.</li><li>O processo completo de exportação (Arquivo → Baixar → Vídeo MP4).</li><li>O fluxo de publicação no Kodland Sparks (tipo, visibilidade, copiar o link do cartão publicado).</li></ul>'],
                  ['📌','Pontos de atenção','<ul><li>Existe uma <b>versão simplificada</b> (só música + 1 efeito sonoro) se o tempo for curto.</li><li>Não feche o Canva antes de a exportação terminar.</li><li>A permissão para usar o trabalho em divulgações da Kodland é sempre <b>voluntária, nunca obrigatória</b>.</li></ul>'],
-                 ['🎯','Objetivos de aprendizagem','<ul><li>O vídeo final tem as 3 cenas, música e um final legível.</li><li>Ele é baixado corretamente e publicado no Sparks, com o link enviado e funcionando.</li></ul>'],
+                 ['🎯','Objetivos de aprendizagem','<ul><li>O vídeo final tem as 3 cenas, música e um encerramento legível.</li><li>Ele é baixado corretamente e publicado no Sparks, com o link enviado e funcionando.</li></ul>'],
                  ['🧑‍🏫','O seu papel','<ul><li>Revise o projeto em grupo antes de publicar.</li><li>Conduza a publicação passo a passo.</li><li>Incentive feedback <b>específico</b> entre colegas (sobre a música, a animação ou o final) — não genérico (“que lindo”).</li></ul>'],
                  ['⚙️','Aspectos técnicos','<ul><li>Confira se todas as páginas foram baixadas e se o vídeo tem áudio.</li><li>No Sparks, confira se o aluno explorou o perfil e sabe citar pelo menos 2 funções da plataforma antes de publicar.</li></ul>']] }
         ]},
@@ -148,9 +148,9 @@ COURSE.modules = [
       { id:'focus', e:'🎯', title:'Os 3 pontos que garantem o sucesso', blocks:[
         { t:'p', html:'Estes são os pontos de foco definidos pelo time de produto para o Digital Creativity 2. Abra cada um:' },
         { t:'acc', items:[
-          ['📤','As entregas são feitas no Sparks, não no chat','<p>Os projetos são entregues no <b>Kodland Sparks</b>: o aluno publica e envia o link no cartão da aula. <b>Arquivos ou imagens no chat da aula não contam como entrega.</b></p><ul><li>O link precisa apontar para o <b>projeto publicado</b>, não para o Studio nem para o editor.</li><li>Abra alguns links durante a aula para conferir que funcionam.</li></ul>'],
+          ['📤','As entregas são feitas no Sparks, não no chat','<p>Os projetos são entregues no <b>Kodland Sparks</b>: o aluno publica e envia o link no cartão da aula. <b>Arquivos ou imagens no chat da aula não contam como entrega.</b></p><ul><li>O link precisa direcionar para o <b>projeto publicado</b>, não para o Studio nem para o editor.</li><li>Abra alguns links durante a aula para conferir se estão funcionando.</li></ul>'],
           ['1️⃣','O primeiro projeto é publicado na A1','<p>Desde a <b>Aula 1</b>, o aluno publica o primeiro projeto no Sparks — a animação do nome. Assim ele começa o portfólio no primeiro dia e aprende o fluxo de publicação cedo.</p><ul><li>Reserve tempo no fim da aula para publicar.</li><li>Visibilidade <b>Public</b>, nunca <b>Only me</b>.</li></ul>'],
-          ['🛟','A opção de reserva no fim da A4–A5','<p>Se o grupo atrasar ou um aluno não encontrar o arquivo dele, use <b>a opção de reserva</b>: uma <b>tarefa reduzida</b> ou um <b>arquivo inicial pronto</b>.</p><ul><li>O objetivo é que o aluno <b>termine e entregue</b> o projeto mesmo assim.</li><li>Na A4 existe, por exemplo, a versão simplificada do áudio (só música + 1 efeito).</li><li>Use a reserva sem dramatizar — é uma estratégia, não um fracasso.</li></ul>']
+          ['🛟','A opção de reserva no fim da A4–A5','<p>Se o grupo atrasar ou algum aluno não encontrar o arquivo, use <b>a opção de reserva</b>: uma <b>tarefa reduzida</b> ou um <b>arquivo inicial pronto</b>.</p><ul><li>O objetivo é que o aluno <b>termine e entregue</b> o projeto mesmo assim.</li><li>Na A4 existe, por exemplo, a versão simplificada do áudio (só música + 1 efeito).</li><li>Use a reserva sem dramatizar — é uma estratégia, não um fracasso.</li></ul>']
         ]}
       ]},
       { id:'publish', e:'📤', title:'Publicar no Kodland Sparks', blocks:[
@@ -160,9 +160,9 @@ COURSE.modules = [
           ['Clicar em Publish','O botão abre o formulário de publicação: título, descrição, seção, reações e aparência.'],
           ['Escolher Public','<b>Public</b> aparece no Feed e no portfólio público. <b>Friends only</b> só para amigos e professores. <b>Only me</b> deixa o projeto privado — ninguém mais vê, nem você.'],
           ['Ativar Request feedback','Assim outros alunos podem deixar um feedback estruturado. Funciona só em projetos públicos.'],
-          ['Copiar o link do projeto publicado e enviar no cartão','Não o link do Studio nem o do Canva. Publicar no Sparks e enviar o link na plataforma da Kodland são <b>dois passos diferentes</b>.']
+          ['Copiar o link do projeto publicado e enviar o arquivo no cartão','Não o link do Studio nem o do Canva. Publicar no Sparks e enviar o link na plataforma da Kodland são <b>dois passos diferentes</b>.']
         ]},
-        { t:'sim', flag:'sparksPublish', src:'sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
+        { t:'sim', flag:'sparksPublish', src:'../sparks-publish/Sparks_Publish.html', e:'⚡', badge:'Simulação', title:'Publicar no Kodland Sparks', text:'Uma réplica do Kodland Sparks: você publica um projeto como uma aluna, conhece as três opções de visibilidade e resolve os dois problemas mais comuns. Cerca de 5 minutos. A verificação do módulo é liberada quando você termina.' }
       ]},
       { id:'trouble', e:'🛠️', title:'Quando algo dá errado', blocks:[
         { t:'acc', open:false, items:[
@@ -171,14 +171,14 @@ COURSE.modules = [
           ['💬','O aluno mandou o arquivo no chat','<p>O chat não conta como entrega. Ajude-o a publicar no Sparks e a enviar o link no cartão.</p>'],
           ['🔗','O link aponta para o Studio ou para o Canva','<p>O link certo é o do <b>projeto publicado</b> no Sparks. Abra o projeto em <b>My projects</b> e copie o link da página dele.</p>'],
           ['📁','O aluno não encontra o arquivo','<p>Use a <b>opção de reserva</b>: o arquivo inicial pronto ou a tarefa reduzida, para que ele termine e entregue.</p>'],
-          ['🖌️','O FlipAnim não carrega ou o cadastro no Canva falha','<p>Use o <b>BrushNinja</b> no lugar do FlipAnim. Para o Canva, tenha <b>e-mails de reserva</b> prontos e lembre a lição de casa do e-mail alguns dias antes.</p>']
+          ['🖌️','O FlipAnim não carrega ou o cadastro no Canva falha','<p>Use o <b>BrushNinja</b> no lugar do FlipAnim. Para o Canva, tenha <b>e-mails de reserva</b> prontos e relembre a tarefa de casa sobre o e-mail alguns dias antes.</p>']
         ]}
       ]},
       { id:'check', e:'✅', title:'Checklist técnico de cada aula', blocks:[
         { t:'check', title:'✅ Meu checklist técnico', groups:[
           { h:'☑️ Antes da aula', items:['Li todas as Teacher Notes da aula e assisti ao vídeo de briefing.','Sei qual é a opção de reserva da aula (tarefa reduzida ou arquivo inicial).','Tenho as alternativas prontas (BrushNinja, e-mails de reserva para o Canva).'] },
           { h:'🎬 Durante a aula', items:['Uso o Follow Mode para os cartões e compartilho só a aba da ferramenta nas demonstrações.','Reservei tempo no fim da aula para publicar.'] },
-          { h:'📤 No fim da aula', items:['Todos publicaram no Sparks como <b>Public</b> — nenhuma entrega pelo chat.','Todos enviaram o link do <b>projeto publicado</b> no cartão da aula.','Abri pelo menos alguns links para conferir que funcionam.'] }
+          { h:'📤 No fim da aula', items:['Todos publicaram no Sparks como <b>Public</b> — nenhuma entrega pelo chat.','Todos enviaram o link do <b>projeto publicado</b> no cartão da aula.','Abri pelo menos alguns links para conferir se estão funcionando.'] }
         ]}
       ]}
     ]}
@@ -195,7 +195,7 @@ COURSE.quiz = {
       a:1, e:'O BrushNinja é a alternativa prevista quando o FlipAnim falha.' },
     { q:'O que é essencial preparar para a Aula 2?',
       o:['Um e-mail próprio ou de um adulto para o cadastro no Canva — e e-mails de reserva da sua parte.','Uma conta paga do Canva.','O vídeo final já exportado.'],
-      a:0, e:'O cadastro no Canva é o bloqueio mais comum: lembre a lição de casa do e-mail com antecedência e tenha contas de reserva.' },
+      a:0, e:'O cadastro no Canva é o bloqueio mais comum: relembre a tarefa de casa sobre o e-mail com antecedência e tenha contas de reserva.' },
     { q:'Na Aula 3, como você dá feedback ao aluno?',
       o:['Corrigindo o projeto no lugar dele.','Com a fórmula ponto forte específico → pergunta para melhorar → apoio.','Dizendo “que lindo” para motivar.'],
       a:1, e:'Feedback específico e uma pergunta que leve o aluno a melhorar — sem corrigir o projeto por ele.' },
@@ -211,7 +211,7 @@ COURSE.quiz = {
       a:1, e:'Os projetos são entregues no Sparks, não no chat.' },
     { q:'Qual link o aluno deve enviar no cartão?',
       o:['O link do Studio ou do editor.','O link do projeto publicado no Kodland Sparks.','O link de edição do Canva.'],
-      a:1, e:'O link precisa apontar para o projeto publicado, não para o Studio.' },
+      a:1, e:'O link precisa direcionar para o projeto publicado, não para o Studio.' },
     { q:'Quando os alunos publicam o primeiro projeto no Sparks?',
       o:['Na Aula 1.','Na Aula 4.','No fim do curso.'],
       a:0, e:'O primeiro projeto é publicado já na Aula 1 — o portfólio começa no primeiro dia.' },
